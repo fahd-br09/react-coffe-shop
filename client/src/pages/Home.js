@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import ProductCard from '../components/ProductCard';
+import AboutSection from '../components/AboutSection';
+import FeedbackSection from '../components/FeedbackSection';
 import { productsAPI } from '../services/api';
 import './Home.css';
 
@@ -146,6 +148,14 @@ const Home = () => {
         </div>
       </section>
 
+      </div>
+
+      {/* About Section */}
+      <AboutSection />
+
+      {/* Feedback Section */}
+      <FeedbackSection />
+
       {/* CTA Section */}
       <section className="cta-section">
         <div className="container">
@@ -161,7 +171,6 @@ const Home = () => {
           </div>
         </div>
       </section>
-      </div>
     </>
   );
 };

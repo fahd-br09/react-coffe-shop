@@ -22,6 +22,12 @@ const Navbar = () => {
             <Link to="/" className="nav-link">Home</Link>
           </li>
           <li>
+            <a href="/#about" className="nav-link">About</a>
+          </li>
+          <li>
+            <a href="/#products" className="nav-link">Menu</a>
+          </li>
+          <li>
             <Link to="/cart" className="nav-link">
               Cart
               {getCartItemsCount() > 0 && (

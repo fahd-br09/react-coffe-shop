@@ -4,6 +4,7 @@ import { CartProvider } from './context/CartContext';
 import { AuthProvider } from './context/AuthContext';
 import SplashScreen from './components/SplashScreen';
 import Navbar from './components/Navbar';
+import Footer from './components/Footer';
 import Home from './pages/Home';
 import ProductDetails from './pages/ProductDetails';
 import Cart from './pages/Cart';
@@ -39,6 +40,7 @@ function App() {
                 <Route path="/login" element={<Login />} />
               </Routes>
             </main>
+            <Footer />
           </div>
         </Router>
       </CartProvider>
