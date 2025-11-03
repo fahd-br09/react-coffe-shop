@@ -1,4 +1,4 @@
-# Coffee Shop MERN - Status Report
+# BR Coffee MERN - Status Report
 
 ## ✅ FULLY FUNCTIONAL AND RUNNING
 
@@ -51,4 +51,4 @@ npm run demo
 - MongoDB can be added later for persistent storage
 - All core e-commerce functionality is working
 
-## 🎉 SUCCESS: Coffee Shop is ready to serve customers!
+## 🎉 SUCCESS: BR Coffee is ready to serve customers!

@@ -53,7 +53,7 @@ const AboutSection = () => {
           <div className="about-image">
             <div className="image-container">
               <img 
-                src="https://via.placeholder.com/600x400/8B4513/FFFFFF?text=BR+Coffee+Interior" 
+                src="/images/coffee-shop-interior.svg" 
                 alt="BR Coffee shop interior"
                 className="about-img"
                 onError={(e) => {
@@ -91,7 +91,7 @@ const AboutSection = () => {
             <div className="team-member">
               <div className="member-image">
                 <img 
-                  src="https://via.placeholder.com/300x300/D2691E/FFFFFF?text=JS" 
+                  src="/images/team/john-smith.svg" 
                   alt="John Smith" 
                   onError={(e) => {
                     e.target.src = 'https://via.placeholder.com/300x300/8B4513/FFFFFF?text=John+Smith';
@@ -106,7 +106,7 @@ const AboutSection = () => {
             <div className="team-member">
               <div className="member-image">
                 <img 
-                  src="https://via.placeholder.com/300x300/CD853F/FFFFFF?text=SJ" 
+                  src="/images/team/sarah-johnson.svg" 
                   alt="Sarah Johnson" 
                   onError={(e) => {
                     e.target.src = 'https://via.placeholder.com/300x300/8B4513/FFFFFF?text=Sarah+Johnson';
@@ -121,7 +121,7 @@ const AboutSection = () => {
             <div className="team-member">
               <div className="member-image">
                 <img 
-                  src="https://via.placeholder.com/300x300/A0522D/FFFFFF?text=MC" 
+                  src="/images/team/mike-chen.svg" 
                   alt="Mike Chen" 
                   onError={(e) => {
                     e.target.src = 'https://via.placeholder.com/300x300/8B4513/FFFFFF?text=Mike+Chen';

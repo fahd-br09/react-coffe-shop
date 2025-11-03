@@ -5,7 +5,7 @@ const mockProducts = [
     name: "Espresso",
     description: "Rich and bold espresso shot made from premium coffee beans",
     price: 2.50,
-    image: "https://via.placeholder.com/400x300/8B4513/FFFFFF?text=Espresso",
+    image: "/images/products/espresso.svg",
     rating: 4.8,
     category: "coffee",
     inStock: true
@@ -15,7 +15,7 @@ const mockProducts = [
     name: "Cappuccino",
     description: "Classic cappuccino with steamed milk and foam art",
     price: 4.25,
-    image: "https://via.placeholder.com/400x300/D2691E/FFFFFF?text=Cappuccino",
+    image: "/images/products/cappuccino.svg",
     rating: 4.7,
     category: "coffee",
     inStock: true
@@ -25,7 +25,7 @@ const mockProducts = [
     name: "Latte",
     description: "Smooth latte with perfectly steamed milk",
     price: 4.75,
-    image: "https://via.placeholder.com/400x300/CD853F/FFFFFF?text=Latte",
+    image: "/images/products/latte.svg",
     rating: 4.6,
     category: "coffee",
     inStock: true
@@ -35,7 +35,7 @@ const mockProducts = [
     name: "Americano",
     description: "Bold americano coffee for the purists",
     price: 3.25,
-    image: "https://via.placeholder.com/400x300/A0522D/FFFFFF?text=Americano",
+    image: "/images/products/americano.svg",
     rating: 4.5,
     category: "coffee",
     inStock: true
@@ -45,7 +45,7 @@ const mockProducts = [
     name: "Green Tea",
     description: "Fresh organic green tea with antioxidants",
     price: 2.75,
-    image: "https://via.placeholder.com/400x300/228B22/FFFFFF?text=Green+Tea",
+    image: "/images/products/green-tea.svg",
     rating: 4.4,
     category: "tea",
     inStock: true
@@ -55,7 +55,7 @@ const mockProducts = [
     name: "Croissant",
     description: "Buttery, flaky croissant baked fresh daily",
     price: 3.50,
-    image: "https://via.placeholder.com/400x300/DAA520/FFFFFF?text=Croissant",
+    image: "/images/products/croissant.svg",
     rating: 4.6,
     category: "pastry",
     inStock: true
@@ -65,7 +65,7 @@ const mockProducts = [
     name: "Blueberry Muffin",
     description: "Fresh blueberry muffin with a golden top",
     price: 2.95,
-    image: "https://via.placeholder.com/400x300/4169E1/FFFFFF?text=Blueberry+Muffin",
+    image: "/images/products/blueberry-muffin.svg",
     rating: 4.5,
     category: "pastry",
     inStock: true
@@ -75,7 +75,7 @@ const mockProducts = [
     name: "Turkey Sandwich",
     description: "Fresh turkey sandwich with lettuce and tomato",
     price: 7.50,
-    image: "https://via.placeholder.com/400x300/F4A460/FFFFFF?text=Turkey+Sandwich",
+    image: "/images/products/turkey-sandwich.svg",
     rating: 4.3,
     category: "sandwich",
     inStock: true
