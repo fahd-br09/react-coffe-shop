@@ -30,6 +30,8 @@ coffee-shop-mern/
 - MongoDB (local installation or MongoDB Atlas)
 - npm or yarn
 
+**Note:** Make sure MongoDB is running on your system before starting the application. If you're using a local MongoDB installation, start it with `mongod` command.
+
 ### 1. Clone the repository
 ```bash
 git clone <repository-url>
@@ -54,7 +56,13 @@ JWT_SECRET=your-secret-key
 PORT=5000
 ```
 
-### 4. Start the application
+### 4. Seed the database (optional)
+```bash
+# Populate database with sample products and admin user
+npm run seed
+```
+
+### 5. Start the application
 ```bash
 # Start both client and server concurrently
 npm run dev

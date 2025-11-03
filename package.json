@@ -9,7 +9,8 @@
     "client": "cd client && npm start",
     "install-server": "cd server && npm install",
     "install-client": "cd client && npm install",
-    "install-all": "npm run install-server && npm run install-client"
+    "install-all": "npm run install-server && npm run install-client",
+    "seed": "cd server && npm run seed"
   },
   "keywords": ["coffee", "shop", "mern", "react", "mongodb", "express"],
   "author": "",
