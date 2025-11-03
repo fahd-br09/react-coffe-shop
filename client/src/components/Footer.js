@@ -10,7 +10,7 @@ const Footer = () => {
       <div className="footer-content">
         <div className="footer-section">
           <div className="footer-brand">
-            <h3>☕ Coffee Shop</h3>
+            <h3>☕ BR Coffee</h3>
             <p>Brewing excellence since today. We're passionate about delivering the perfect cup of coffee to brighten your day.</p>
             <div className="social-links">
               <button className="social-link" aria-label="Facebook">📘</button>
@@ -47,7 +47,7 @@ const Footer = () => {
           <div className="contact-info">
             <p>📍 123 Coffee Street, Bean City, BC 12345</p>
             <p>📞 (555) 123-BREW</p>
-            <p>✉️ hello@coffeeshop.com</p>
+            <p>✉️ hello@brcoffee.com</p>
             <p>🕒 Mon-Sun: 6:00 AM - 10:00 PM</p>
           </div>
         </div>

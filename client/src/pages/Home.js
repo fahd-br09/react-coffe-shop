@@ -62,7 +62,7 @@ const Home = () => {
         <div className="hero-content">
           <div className="hero-text">
             <h1 className="hero-title">
-              Welcome to <span className="brand-highlight">Coffee Shop</span>
+              Welcome to <span className="brand-highlight">BR Coffee</span>
             </h1>
             <p className="hero-subtitle">
               Discover our amazing selection of premium coffee, artisan teas, and freshly baked pastries

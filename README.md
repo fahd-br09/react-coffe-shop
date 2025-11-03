@@ -1,6 +1,6 @@
-# Coffee Shop MERN
+# BR Coffee MERN
 
-A full-stack coffee shop web application built with MongoDB, Express.js, React, and Node.js.
+A full-stack BR Coffee web application built with MongoDB, Express.js, React, and Node.js.
 
 ## Features
 
@@ -16,7 +16,7 @@ A full-stack coffee shop web application built with MongoDB, Express.js, React, 
 ## Project Structure
 
 ```
-coffee-shop-mern/
+br-coffee-mern/
 ├── client/          # React frontend
 ├── server/          # Express backend
 ├── package.json     # Root package.json for scripts
@@ -35,7 +35,7 @@ coffee-shop-mern/
 ### 1. Clone the repository
 ```bash
 git clone <repository-url>
-cd coffee-shop-mern
+cd br-coffee-mern
 ```
 
 ### 2. Install dependencies
@@ -97,7 +97,7 @@ npm run client  # Frontend on http://localhost:3000
 ## Admin Access
 
 Default admin credentials:
-- Email: admin@coffeeshop.com
+- Email: admin@brcoffee.com
 - Password: admin123
 
 ## Technologies Used

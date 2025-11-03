@@ -35,6 +35,9 @@ const ProductCard = ({ product }) => {
         src={product.image} 
         alt={product.name}
         className="product-image"
+        onError={(e) => {
+          e.target.src = `https://via.placeholder.com/400x300/8B4513/FFFFFF?text=${encodeURIComponent(product.name)}`;
+        }}
       />
       <div className="product-info">
         <h3 className="product-name">{product.name}</h3>

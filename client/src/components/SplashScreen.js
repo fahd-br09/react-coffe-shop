@@ -44,7 +44,7 @@ const SplashScreen = ({ onComplete }) => {
         </div>
         
         <div className={`splash-text ${currentStep >= 2 ? 'animate-in' : ''}`}>
-          <h1 className="brand-name">Coffee Shop</h1>
+          <h1 className="brand-name">BR Coffee</h1>
           <p className="tagline">Brewing Excellence Since Today</p>
         </div>
 

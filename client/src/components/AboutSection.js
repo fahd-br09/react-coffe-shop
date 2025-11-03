@@ -7,7 +7,7 @@ const AboutSection = () => {
       <div className="container">
         <div className="about-content">
           <div className="about-text">
-            <h2 className="section-title">About Our Coffee Shop</h2>
+            <h2 className="section-title">About BR Coffee</h2>
             <div className="about-story">
               <p className="lead-text">
                 Founded with a passion for exceptional coffee, our journey began with a simple mission: 
@@ -53,9 +53,12 @@ const AboutSection = () => {
           <div className="about-image">
             <div className="image-container">
               <img 
-                src="https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?w=600&h=800&fit=crop" 
-                alt="Coffee shop interior"
+                src="https://via.placeholder.com/600x400/8B4513/FFFFFF?text=BR+Coffee+Interior" 
+                alt="BR Coffee shop interior"
                 className="about-img"
+                onError={(e) => {
+                  e.target.src = 'https://via.placeholder.com/600x400/8B4513/FFFFFF?text=BR+Coffee+Shop';
+                }}
               />
               <div className="image-overlay">
                 <div className="overlay-content">
@@ -87,7 +90,13 @@ const AboutSection = () => {
           <div className="team-grid">
             <div className="team-member">
               <div className="member-image">
-                <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=300&h=300&fit=crop&crop=face" alt="John Smith" />
+                <img 
+                  src="https://via.placeholder.com/300x300/D2691E/FFFFFF?text=JS" 
+                  alt="John Smith" 
+                  onError={(e) => {
+                    e.target.src = 'https://via.placeholder.com/300x300/8B4513/FFFFFF?text=John+Smith';
+                  }}
+                />
               </div>
               <h4>John Smith</h4>
               <p className="member-role">Head Barista</p>
@@ -96,7 +105,13 @@ const AboutSection = () => {
             
             <div className="team-member">
               <div className="member-image">
-                <img src="https://images.unsplash.com/photo-1494790108755-2616b612b786?w=300&h=300&fit=crop&crop=face" alt="Sarah Johnson" />
+                <img 
+                  src="https://via.placeholder.com/300x300/CD853F/FFFFFF?text=SJ" 
+                  alt="Sarah Johnson" 
+                  onError={(e) => {
+                    e.target.src = 'https://via.placeholder.com/300x300/8B4513/FFFFFF?text=Sarah+Johnson';
+                  }}
+                />
               </div>
               <h4>Sarah Johnson</h4>
               <p className="member-role">Coffee Sourcing Expert</p>
@@ -105,7 +120,13 @@ const AboutSection = () => {
             
             <div className="team-member">
               <div className="member-image">
-                <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=300&h=300&fit=crop&crop=face" alt="Mike Chen" />
+                <img 
+                  src="https://via.placeholder.com/300x300/A0522D/FFFFFF?text=MC" 
+                  alt="Mike Chen" 
+                  onError={(e) => {
+                    e.target.src = 'https://via.placeholder.com/300x300/8B4513/FFFFFF?text=Mike+Chen';
+                  }}
+                />
               </div>
               <h4>Mike Chen</h4>
               <p className="member-role">Pastry Chef</p>

@@ -85,7 +85,7 @@ const Login = () => {
           
           <div style={{ marginTop: '1rem', padding: '1rem', background: '#f8f9fa', borderRadius: '4px' }}>
             <h4>Demo Credentials:</h4>
-            <p>Email: admin@coffeeshop.com</p>
+            <p>Email: admin@brcoffee.com</p>
             <p>Password: admin123</p>
           </div>
         </div>

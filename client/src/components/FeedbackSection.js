@@ -41,21 +41,21 @@ const FeedbackSection = () => {
       name: "Emily Rodriguez",
       rating: 5,
       message: "Absolutely love this coffee shop! The espresso is perfect and the pastries are always fresh. The staff is incredibly friendly too!",
-      avatar: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&h=100&fit=crop&crop=face"
+      avatar: "https://via.placeholder.com/100x100/FFD700/8B4513?text=ER"
     },
     {
       id: 2,
       name: "David Thompson",
       rating: 5,
       message: "Best coffee in town! I'm a regular customer and they never disappoint. The latte art is amazing and the atmosphere is perfect for work.",
-      avatar: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=100&h=100&fit=crop&crop=face"
+      avatar: "https://via.placeholder.com/100x100/D2691E/FFFFFF?text=DT"
     },
     {
       id: 3,
       name: "Lisa Chen",
       rating: 4,
       message: "Great variety of teas and coffee. The green tea is exceptional and the blueberry muffins are to die for. Highly recommend!",
-      avatar: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=100&h=100&fit=crop&crop=face"
+      avatar: "https://via.placeholder.com/100x100/CD853F/FFFFFF?text=LC"
     }
   ];
 

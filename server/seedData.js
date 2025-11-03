@@ -85,7 +85,7 @@ const seedDatabase = async () => {
 
     // Create admin user
     const adminUser = new User({
-      email: 'admin@coffeeshop.com',
+      email: 'admin@brcoffee.com',
       password: 'admin123',
       role: 'admin'
     });

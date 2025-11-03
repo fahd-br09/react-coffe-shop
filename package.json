@@ -1,7 +1,7 @@
 {
-  "name": "coffee-shop-mern",
+  "name": "br-coffee-mern",
   "version": "1.0.0",
-  "description": "A full-stack coffee shop web application built with MERN stack",
+  "description": "A full-stack BR Coffee web application built with MERN stack",
   "main": "server/server.js",
   "scripts": {
     "dev": "concurrently \"npm run server\" \"npm run client\"",

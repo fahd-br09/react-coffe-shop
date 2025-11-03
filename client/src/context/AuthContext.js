@@ -8,8 +8,8 @@ export const AuthProvider = ({ children }) => {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    const savedToken = localStorage.getItem('coffee-shop-token');
-    const savedUser = localStorage.getItem('coffee-shop-user');
+    const savedToken = localStorage.getItem('br-coffee-token');
+    const savedUser = localStorage.getItem('br-coffee-user');
     
     if (savedToken && savedUser) {
       setToken(savedToken);
@@ -21,15 +21,15 @@ export const AuthProvider = ({ children }) => {
   const login = (userData, authToken) => {
     setUser(userData);
     setToken(authToken);
-    localStorage.setItem('coffee-shop-token', authToken);
-    localStorage.setItem('coffee-shop-user', JSON.stringify(userData));
+    localStorage.setItem('br-coffee-token', authToken);
+    localStorage.setItem('br-coffee-user', JSON.stringify(userData));
   };
 
   const logout = () => {
     setUser(null);
     setToken(null);
-    localStorage.removeItem('coffee-shop-token');
-    localStorage.removeItem('coffee-shop-user');
+    localStorage.removeItem('br-coffee-token');
+    localStorage.removeItem('br-coffee-user');
   };
 
   const isAdmin = () => {
