@@ -71,7 +71,12 @@ export const CartProvider = ({ children }) => {
   }, [state.items]);
 
   const addToCart = (product) => {
-    dispatch({ type: 'ADD_TO_CART', payload: product });
+    // Use flash sale price if available, otherwise use regular price
+    const productWithPrice = {
+      ...product,
+      price: product.isFlashSale ? product.flashSalePrice : product.price
+    };
+    dispatch({ type: 'ADD_TO_CART', payload: productWithPrice });
   };
 
   const removeFromCart = (productId) => {

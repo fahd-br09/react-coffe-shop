@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import ProductCard from '../components/ProductCard';
 import AboutSection from '../components/AboutSection';
 import FeedbackSection from '../components/FeedbackSection';
+import FlashSale from '../components/FlashSale';
 import { productsAPI } from '../services/api';
 import './Home.css';
 
@@ -104,10 +105,17 @@ const Home = () => {
         </div>
       </section>
 
+      {/* Flash Sale Section */}
+      <section className="flash-sale-section">
+        <div className="container">
+          <FlashSale />
+        </div>
+      </section>
+
       {/* Features Section */}
       <section className="features-section">
         <div className="container">
-          <h2 className="section-title">Why Choose Our Coffee Shop?</h2>
+          <h2 className="section-title">Why Choose BR Coffee?</h2>
           <div className="features-grid">
             <div className="feature-card">
               <div className="feature-icon">☕</div>

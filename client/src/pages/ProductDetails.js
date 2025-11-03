@@ -30,8 +30,15 @@ const ProductDetails = () => {
   };
 
   const handleAddToCart = () => {
-    addToCart(product);
-    alert('Product added to cart!');
+    const productWithPrice = {
+      ...product,
+      price: product.isFlashSale ? product.flashSalePrice : product.price
+    };
+    addToCart(productWithPrice);
+    const message = product.isFlashSale 
+      ? `Added to cart with Flash Sale price: $${product.flashSalePrice.toFixed(2)}!` 
+      : 'Product added to cart!';
+    alert(message);
   };
 
   const renderStars = (rating) => {
@@ -95,8 +102,53 @@ const ProductDetails = () => {
           <p style={{ fontSize: '1.1rem', marginBottom: '1rem', color: '#666' }}>
             {product.description}
           </p>
-          <div style={{ fontSize: '2rem', fontWeight: 'bold', color: '#8B4513', marginBottom: '2rem' }}>
-            ${product.price.toFixed(2)}
+          <div style={{ marginBottom: '2rem' }}>
+            {product.isFlashSale ? (
+              <div>
+                <div style={{ 
+                  background: 'linear-gradient(45deg, #FF6B35, #F7931E)', 
+                  color: 'white', 
+                  padding: '0.5rem 1rem', 
+                  borderRadius: '25px', 
+                  display: 'inline-block', 
+                  marginBottom: '1rem',
+                  fontSize: '0.9rem',
+                  fontWeight: 'bold'
+                }}>
+                  ⚡ FLASH SALE - 25% OFF
+                </div>
+                <div style={{ display: 'flex', alignItems: 'center', gap: '1rem' }}>
+                  <span style={{ 
+                    fontSize: '1.5rem', 
+                    color: '#999', 
+                    textDecoration: 'line-through' 
+                  }}>
+                    ${product.originalPrice.toFixed(2)}
+                  </span>
+                  <span style={{ 
+                    fontSize: '2.5rem', 
+                    fontWeight: 'bold', 
+                    color: '#FF6B35' 
+                  }}>
+                    ${product.flashSalePrice.toFixed(2)}
+                  </span>
+                  <span style={{ 
+                    background: 'rgba(40, 167, 69, 0.1)', 
+                    color: '#28a745', 
+                    padding: '0.3rem 0.6rem', 
+                    borderRadius: '15px', 
+                    fontSize: '1rem', 
+                    fontWeight: 'bold' 
+                  }}>
+                    Save ${(product.originalPrice - product.flashSalePrice).toFixed(2)}
+                  </span>
+                </div>
+              </div>
+            ) : (
+              <div style={{ fontSize: '2rem', fontWeight: 'bold', color: '#8B4513' }}>
+                ${product.price.toFixed(2)}
+              </div>
+            )}
           </div>
           <button 
             onClick={handleAddToCart}

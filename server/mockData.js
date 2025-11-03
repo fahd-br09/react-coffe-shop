@@ -5,80 +5,104 @@ const mockProducts = [
     name: "Espresso",
     description: "Rich and bold espresso shot made from premium coffee beans",
     price: 2.50,
+    originalPrice: 2.50,
+    flashSalePrice: 1.88, // 25% off
     image: "/images/products/espresso.svg",
     rating: 4.8,
     category: "coffee",
-    inStock: true
+    inStock: true,
+    isFlashSale: true
   },
   {
     _id: '2',
     name: "Cappuccino",
     description: "Classic cappuccino with steamed milk and foam art",
     price: 4.25,
+    originalPrice: 4.25,
+    flashSalePrice: 3.19, // 25% off
     image: "/images/products/cappuccino.svg",
     rating: 4.7,
     category: "coffee",
-    inStock: true
+    inStock: true,
+    isFlashSale: true
   },
   {
     _id: '3',
     name: "Latte",
     description: "Smooth latte with perfectly steamed milk",
     price: 4.75,
+    originalPrice: 4.75,
+    flashSalePrice: 3.56, // 25% off
     image: "/images/products/latte.svg",
     rating: 4.6,
     category: "coffee",
-    inStock: true
+    inStock: true,
+    isFlashSale: true
   },
   {
     _id: '4',
     name: "Americano",
     description: "Bold americano coffee for the purists",
     price: 3.25,
+    originalPrice: 3.25,
+    flashSalePrice: 2.44, // 25% off
     image: "/images/products/americano.svg",
     rating: 4.5,
     category: "coffee",
-    inStock: true
+    inStock: true,
+    isFlashSale: true
   },
   {
     _id: '5',
     name: "Green Tea",
     description: "Fresh organic green tea with antioxidants",
     price: 2.75,
+    originalPrice: 2.75,
+    flashSalePrice: null,
     image: "/images/products/green-tea.svg",
     rating: 4.4,
     category: "tea",
-    inStock: true
+    inStock: true,
+    isFlashSale: false
   },
   {
     _id: '6',
     name: "Croissant",
     description: "Buttery, flaky croissant baked fresh daily",
     price: 3.50,
+    originalPrice: 3.50,
+    flashSalePrice: null,
     image: "/images/products/croissant.svg",
     rating: 4.6,
     category: "pastry",
-    inStock: true
+    inStock: true,
+    isFlashSale: false
   },
   {
     _id: '7',
     name: "Blueberry Muffin",
     description: "Fresh blueberry muffin with a golden top",
     price: 2.95,
+    originalPrice: 2.95,
+    flashSalePrice: null,
     image: "/images/products/blueberry-muffin.svg",
     rating: 4.5,
     category: "pastry",
-    inStock: true
+    inStock: true,
+    isFlashSale: false
   },
   {
     _id: '8',
     name: "Turkey Sandwich",
     description: "Fresh turkey sandwich with lettuce and tomato",
     price: 7.50,
+    originalPrice: 7.50,
+    flashSalePrice: null,
     image: "/images/products/turkey-sandwich.svg",
     rating: 4.3,
     category: "sandwich",
-    inStock: true
+    inStock: true,
+    isFlashSale: false
   }
 ];
 

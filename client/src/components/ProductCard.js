@@ -30,7 +30,7 @@ const ProductCard = ({ product }) => {
   };
 
   return (
-    <div className="product-card" onClick={handleCardClick}>
+    <div className={`product-card ${product.isFlashSale ? 'flash-sale' : ''}`} onClick={handleCardClick}>
       <img 
         src={product.image} 
         alt={product.name}
@@ -43,7 +43,20 @@ const ProductCard = ({ product }) => {
         <h3 className="product-name">{product.name}</h3>
         <p className="product-description">{product.description}</p>
         <div className="product-footer">
-          <span className="product-price">${product.price.toFixed(2)}</span>
+          <div className="price-container">
+            {product.isFlashSale ? (
+              <>
+                <span className="flash-sale-badge">⚡ FLASH SALE</span>
+                <div className="price-group">
+                  <span className="original-price">${product.originalPrice.toFixed(2)}</span>
+                  <span className="flash-price">${product.flashSalePrice.toFixed(2)}</span>
+                </div>
+                <span className="discount-percent">25% OFF</span>
+              </>
+            ) : (
+              <span className="product-price">${product.price.toFixed(2)}</span>
+            )}
+          </div>
           <div className="product-rating">
             <span>{renderStars(product.rating)}</span>
             <span>({product.rating})</span>
