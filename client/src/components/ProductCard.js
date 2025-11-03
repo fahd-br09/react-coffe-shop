@@ -35,8 +35,13 @@ const ProductCard = ({ product }) => {
         src={product.image} 
         alt={product.name}
         className="product-image"
+        loading="lazy"
         onError={(e) => {
+          console.log(`Failed to load image: ${product.image}`);
           e.target.src = `https://via.placeholder.com/400x300/8B4513/FFFFFF?text=${encodeURIComponent(product.name)}`;
+        }}
+        onLoad={() => {
+          console.log(`Successfully loaded image: ${product.image}`);
         }}
       />
       <div className="product-info">
