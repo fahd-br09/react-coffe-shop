@@ -63,6 +63,13 @@ npm run seed
 ```
 
 ### 5. Start the application
+
+#### Option A: Demo Mode (No MongoDB required)
+```bash
+npm run demo
+```
+
+#### Option B: Full MongoDB Mode
 ```bash
 # Start both client and server concurrently
 npm run dev

@@ -5,14 +5,23 @@
   "main": "server/server.js",
   "scripts": {
     "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "demo": "concurrently \"npm run server-demo\" \"npm run client\"",
     "server": "cd server && npm run dev",
+    "server-demo": "cd server && npm run demo",
     "client": "cd client && npm start",
     "install-server": "cd server && npm install",
     "install-client": "cd client && npm install",
     "install-all": "npm run install-server && npm run install-client",
     "seed": "cd server && npm run seed"
   },
-  "keywords": ["coffee", "shop", "mern", "react", "mongodb", "express"],
+  "keywords": [
+    "coffee",
+    "shop",
+    "mern",
+    "react",
+    "mongodb",
+    "express"
+  ],
   "author": "",
   "license": "MIT",
   "devDependencies": {

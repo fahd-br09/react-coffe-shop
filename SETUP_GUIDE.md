@@ -7,31 +7,24 @@
 npm run install-all
 ```
 
-### 2. Start MongoDB
-Make sure MongoDB is running on your system:
+### 2. Choose Your Database Option
+
+#### Option A: Demo Mode (No MongoDB Required) - RECOMMENDED FOR QUICK TESTING
 ```bash
-# If using local MongoDB
-mongod
-
-# Or if using MongoDB as a service, it should already be running
+npm run demo
 ```
+This starts the app with in-memory data storage. Perfect for testing without MongoDB setup.
 
-### 3. Seed Database (Optional but Recommended)
-```bash
-npm run seed
-```
-This creates:
-- 8 sample products (coffee, tea, pastries, sandwiches)
-- Admin user: `admin@coffeeshop.com` / `admin123`
+#### Option B: Full MongoDB Mode
+1. Install and start MongoDB on your system
+2. Seed the database: `npm run seed`
+3. Start the application: `npm run dev`
 
-### 4. Start the Application
-```bash
-npm run dev
-```
+### 3. Access the Application
+- Frontend: http://localhost:3000
+- Backend API: http://localhost:5000
 
-This starts:
-- Backend server on http://localhost:5000
-- Frontend React app on http://localhost:3000
+**Demo Mode is running!** ✅
 
 ## 🎯 Testing the Application
 
