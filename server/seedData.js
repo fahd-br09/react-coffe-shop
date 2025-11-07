@@ -8,7 +8,7 @@ const sampleProducts = [
     name: "Espresso",
     description: "Rich and bold espresso shot made from premium coffee beans",
     price: 2.50,
-    image: "https://images.unsplash.com/photo-1510707577719-ae7c14805e3a?w=400",
+    image: "https://media.istockphoto.com/id/1126871442/photo/coffee-cup.jpg?s=612x612&w=0&k=20&c=Jp8v8YqgT9ws-lMN6qiMZmpp5rGlsBpaRCeMS_DmzKs=",
     rating: 4.8,
     category: "coffee"
   },

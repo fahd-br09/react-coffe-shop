@@ -1,7 +1,17 @@
 const express = require('express');
 const router = express.Router();
+const mongoose = require('mongoose');
 const Product = require('../models/Product');
 const { adminAuth } = require('../middleware/auth');
+
+// If MongoDB isn't connected yet, respond quickly with 503 so requests don't hang.
+router.use((req, res, next) => {
+  // readyState: 0 = disconnected, 1 = connected, 2 = connecting, 3 = disconnecting
+  if (mongoose.connection.readyState !== 1) {
+    return res.status(503).json({ message: 'Service temporarily unavailable - database not connected' });
+  }
+  next();
+});
 
 // Get all products
 router.get('/', async (req, res) => {
