@@ -1,0 +1,43 @@
+<svg width="400" height="300" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="espressoCupGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#8B4513;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#654321;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="espressoCoffeeGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#3E2723;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#5D4037;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="400" height="300" fill="#F5F5DC"/>
+  
+  <!-- Coffee Cup -->
+  <ellipse cx="200" cy="250" rx="80" ry="15" fill="#D2B48C" opacity="0.3"/>
+  
+  <!-- Cup Body -->
+  <path d="M 140 180 L 140 220 Q 140 240 160 240 L 240 240 Q 260 240 260 220 L 260 180 Z" fill="url(#espressoCupGradient)" stroke="#654321" stroke-width="2"/>
+  
+  <!-- Coffee -->
+  <path d="M 145 185 L 145 215 Q 145 235 165 235 L 235 235 Q 255 235 255 215 L 255 185 Z" fill="url(#espressoCoffeeGradient)"/>
+  
+  <!-- Cup Handle -->
+  <path d="M 260 190 Q 280 190 280 210 Q 280 230 260 230" fill="none" stroke="#654321" stroke-width="3"/>
+  
+  <!-- Steam -->
+  <path d="M 180 170 Q 175 160 180 150 Q 185 140 180 130" fill="none" stroke="#E0E0E0" stroke-width="2" opacity="0.7"/>
+  <path d="M 200 170 Q 195 160 200 150 Q 205 140 200 130" fill="none" stroke="#E0E0E0" stroke-width="2" opacity="0.7"/>
+  <path d="M 220 170 Q 215 160 220 150 Q 225 140 220 130" fill="none" stroke="#E0E0E0" stroke-width="2" opacity="0.7"/>
+  
+  <!-- Coffee Beans -->
+  <ellipse cx="120" cy="100" rx="8" ry="12" fill="#8B4513" transform="rotate(30 120 100)"/>
+  <path d="M 120 95 Q 120 100 120 105" stroke="#654321" stroke-width="1"/>
+  
+  <ellipse cx="280" cy="120" rx="8" ry="12" fill="#8B4513" transform="rotate(-20 280 120)"/>
+  <path d="M 280 115 Q 280 120 280 125" stroke="#654321" stroke-width="1"/>
+  
+  <!-- Title -->
+  <text x="200" y="50" font-family="Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle" fill="#8B4513">Espresso</text>
+  <text x="200" y="75" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#666">Rich & Bold</text>
+</svg>

@@ -1,0 +1,58 @@
+<svg width="400" height="300" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="croissantCroissantGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFD700;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#DAA520;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#B8860B;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="croissantShadowGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#D2B48C;stop-opacity:0.5" />
+      <stop offset="100%" style="stop-color:#A0522D;stop-opacity:0.3" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="400" height="300" fill="#FFFAF0"/>
+  
+  <!-- Plate Shadow -->
+  <ellipse cx="200" cy="240" rx="120" ry="25" fill="url(#croissantShadowGradient)"/>
+  
+  <!-- Croissant Shadow -->
+  <ellipse cx="205" cy="185" rx="85" ry="35" fill="#D2B48C" opacity="0.3"/>
+  
+  <!-- Croissant Body -->
+  <path d="M 120 160 Q 140 140 170 145 Q 200 150 230 155 Q 260 160 280 170 Q 290 175 285 185 Q 280 195 270 190 Q 240 175 210 170 Q 180 165 150 170 Q 130 175 120 160" fill="url(#croissantCroissantGradient)" stroke="#B8860B" stroke-width="1"/>
+  
+  <!-- Croissant Layers -->
+  <path d="M 130 165 Q 150 150 180 155 Q 210 160 240 165 Q 265 170 275 175" fill="none" stroke="#B8860B" stroke-width="1" opacity="0.7"/>
+  <path d="M 135 170 Q 155 155 185 160 Q 215 165 245 170" fill="none" stroke="#B8860B" stroke-width="1" opacity="0.5"/>
+  
+  <!-- Croissant Tip -->
+  <ellipse cx="285" cy="177" rx="8" ry="12" fill="#DAA520" transform="rotate(30 285 177)"/>
+  
+  <!-- Croissant End -->
+  <ellipse cx="125" cy="165" rx="12" ry="18" fill="#FFD700"/>
+  <ellipse cx="125" cy="165" rx="8" ry="12" fill="#DAA520"/>
+  
+  <!-- Texture Lines -->
+  <path d="M 140 155 Q 160 150 180 152" fill="none" stroke="#B8860B" stroke-width="0.5" opacity="0.6"/>
+  <path d="M 145 162 Q 165 157 185 159" fill="none" stroke="#B8860B" stroke-width="0.5" opacity="0.6"/>
+  <path d="M 150 169 Q 170 164 190 166" fill="none" stroke="#B8860B" stroke-width="0.5" opacity="0.6"/>
+  <path d="M 170 175 Q 190 170 210 172" fill="none" stroke="#B8860B" stroke-width="0.5" opacity="0.6"/>
+  <path d="M 190 180 Q 210 175 230 177" fill="none" stroke="#B8860B" stroke-width="0.5" opacity="0.6"/>
+  
+  <!-- Butter Highlights -->
+  <ellipse cx="160" cy="160" rx="4" ry="2" fill="#FFFF99" opacity="0.8"/>
+  <ellipse cx="200" cy="165" rx="3" ry="2" fill="#FFFF99" opacity="0.8"/>
+  <ellipse cx="240" cy="170" rx="3" ry="2" fill="#FFFF99" opacity="0.8"/>
+  
+  <!-- Crumbs -->
+  <circle cx="180" cy="200" r="2" fill="#DAA520"/>
+  <circle cx="220" cy="195" r="1.5" fill="#B8860B"/>
+  <circle cx="250" cy="200" r="1" fill="#DAA520"/>
+  <circle cx="160" cy="190" r="1" fill="#B8860B"/>
+  
+  <!-- Title -->
+  <text x="200" y="50" font-family="Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle" fill="#DAA520">Croissant</text>
+  <text x="200" y="75" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#666">Buttery & Flaky</text>
+</svg>

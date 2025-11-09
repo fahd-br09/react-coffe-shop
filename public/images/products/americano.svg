@@ -1,0 +1,51 @@
+<svg width="400" height="300" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="americanoCupGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#A0522D;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#654321;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="americanoAmericanoGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2F1B14;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#4A2C2A;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="400" height="300" fill="#F0F8FF"/>
+  
+  <!-- Coffee Cup -->
+  <ellipse cx="200" cy="255" rx="95" ry="22" fill="#D2B48C" opacity="0.3"/>
+  
+  <!-- Cup Body (Large for Americano) -->
+  <path d="M 125 155 L 125 230 Q 125 255 150 255 L 250 255 Q 275 255 275 230 L 275 155 Z" fill="url(#americanoCupGradient)" stroke="#654321" stroke-width="2"/>
+  
+  <!-- Americano Coffee -->
+  <path d="M 130 165 L 130 225 Q 130 250 155 250 L 245 250 Q 270 250 270 225 L 270 165 Z" fill="url(#americanoAmericanoGradient)"/>
+  
+  <!-- Coffee Surface -->
+  <ellipse cx="200" cy="165" rx="70" ry="12" fill="#3E2723"/>
+  
+  <!-- Cup Handle -->
+  <path d="M 275 170 Q 300 170 300 200 Q 300 230 275 230" fill="none" stroke="#654321" stroke-width="4"/>
+  
+  <!-- Steam (More prominent for hot Americano) -->
+  <path d="M 165 150 Q 160 140 165 130 Q 170 120 165 110" fill="none" stroke="#E0E0E0" stroke-width="3" opacity="0.8"/>
+  <path d="M 185 150 Q 180 140 185 130 Q 190 120 185 110" fill="none" stroke="#E0E0E0" stroke-width="3" opacity="0.8"/>
+  <path d="M 205 150 Q 200 140 205 130 Q 210 120 205 110" fill="none" stroke="#E0E0E0" stroke-width="3" opacity="0.8"/>
+  <path d="M 225 150 Q 220 140 225 130 Q 230 120 225 110" fill="none" stroke="#E0E0E0" stroke-width="3" opacity="0.8"/>
+  <path d="M 245 150 Q 240 140 245 130 Q 250 120 245 110" fill="none" stroke="#E0E0E0" stroke-width="3" opacity="0.8"/>
+  
+  <!-- Coffee Beans -->
+  <ellipse cx="90" cy="70" rx="8" ry="12" fill="#A0522D" transform="rotate(30 90 70)"/>
+  <path d="M 90 65 Q 90 70 90 75" stroke="#654321" stroke-width="1"/>
+  
+  <ellipse cx="310" cy="90" rx="8" ry="12" fill="#A0522D" transform="rotate(-60 310 90)"/>
+  <path d="M 310 85 Q 310 90 310 95" stroke="#654321" stroke-width="1"/>
+  
+  <ellipse cx="120" cy="120" rx="6" ry="9" fill="#A0522D" transform="rotate(15 120 120)"/>
+  <path d="M 120 117 Q 120 120 120 123" stroke="#654321" stroke-width="1"/>
+  
+  <!-- Title -->
+  <text x="200" y="45" font-family="Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle" fill="#A0522D">Americano</text>
+  <text x="200" y="70" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#666">Bold & Pure</text>
+</svg>

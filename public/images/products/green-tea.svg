@@ -1,0 +1,55 @@
+<svg width="400" height="300" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="greenTeacupGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#228B22;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#006400;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="greenTeaGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#90EE90;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#32CD32;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#228B22;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="400" height="300" fill="#F0FFF0"/>
+  
+  <!-- Tea Cup -->
+  <ellipse cx="200" cy="250" rx="80" ry="18" fill="#98FB98" opacity="0.3"/>
+  
+  <!-- Cup Body -->
+  <path d="M 140 180 L 140 220 Q 140 240 160 240 L 240 240 Q 260 240 260 220 L 260 180 Z" fill="url(#greenTeacupGradient)" stroke="#006400" stroke-width="2"/>
+  
+  <!-- Green Tea -->
+  <path d="M 145 185 L 145 215 Q 145 235 165 235 L 235 235 Q 255 235 255 215 L 255 185 Z" fill="url(#greenTeaGradient)"/>
+  
+  <!-- Tea Surface -->
+  <ellipse cx="200" cy="185" rx="55" ry="10" fill="#32CD32"/>
+  
+  <!-- Cup Handle -->
+  <path d="M 260 190 Q 280 190 280 210 Q 280 230 260 230" fill="none" stroke="#006400" stroke-width="3"/>
+  
+  <!-- Tea Leaves Floating -->
+  <ellipse cx="185" cy="185" rx="3" ry="6" fill="#228B22" transform="rotate(30 185 185)"/>
+  <ellipse cx="210" cy="188" rx="2" ry="5" fill="#228B22" transform="rotate(-20 210 188)"/>
+  <ellipse cx="200" cy="182" rx="2" ry="4" fill="#228B22" transform="rotate(45 200 182)"/>
+  
+  <!-- Steam -->
+  <path d="M 180 170 Q 175 160 180 150 Q 185 140 180 130" fill="none" stroke="#E0FFE0" stroke-width="2" opacity="0.8"/>
+  <path d="M 200 170 Q 195 160 200 150 Q 205 140 200 130" fill="none" stroke="#E0FFE0" stroke-width="2" opacity="0.8"/>
+  <path d="M 220 170 Q 215 160 220 150 Q 225 140 220 130" fill="none" stroke="#E0FFE0" stroke-width="2" opacity="0.8"/>
+  
+  <!-- Tea Leaves Around -->
+  <path d="M 110 100 Q 105 95 110 90 Q 115 95 120 90 Q 125 95 120 100 Q 115 105 110 100" fill="#228B22"/>
+  <path d="M 115 100 L 115 95" stroke="#006400" stroke-width="1"/>
+  
+  <path d="M 280 110 Q 275 105 280 100 Q 285 105 290 100 Q 295 105 290 110 Q 285 115 280 110" fill="#228B22"/>
+  <path d="M 285 110 L 285 105" stroke="#006400" stroke-width="1"/>
+  
+  <path d="M 320 80 Q 315 75 320 70 Q 325 75 330 70 Q 335 75 330 80 Q 325 85 320 80" fill="#32CD32"/>
+  <path d="M 325 80 L 325 75" stroke="#228B22" stroke-width="1"/>
+  
+  <!-- Title -->
+  <text x="200" y="50" font-family="Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle" fill="#228B22">Green Tea</text>
+  <text x="200" y="75" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#666">Fresh & Organic</text>
+</svg>

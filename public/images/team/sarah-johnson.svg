@@ -1,0 +1,64 @@
+<svg width="300" height="300" viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="skinGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FDBCB4;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#E8A798;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="blouseGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#D2691E;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#A0522D;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <circle cx="150" cy="150" r="145" fill="#F0F8FF" stroke="#D2691E" stroke-width="5"/>
+  
+  <!-- Blouse -->
+  <path d="M 100 250 L 100 280 Q 100 290 110 290 L 190 290 Q 200 290 200 280 L 200 250 Q 190 240 180 235 L 120 235 Q 110 240 100 250" fill="url(#blouseGradient)"/>
+  
+  <!-- Neck -->
+  <ellipse cx="150" cy="230" rx="25" ry="35" fill="url(#skinGradient)"/>
+  
+  <!-- Head -->
+  <ellipse cx="150" cy="160" rx="55" ry="65" fill="url(#skinGradient)"/>
+  
+  <!-- Hair -->
+  <path d="M 95 130 Q 95 100 125 90 Q 150 85 175 90 Q 205 100 205 130 Q 200 140 190 150 Q 180 160 170 165 L 130 165 Q 120 160 110 150 Q 100 140 95 130" fill="#8B4513"/>
+  
+  <!-- Eyes -->
+  <ellipse cx="130" cy="150" rx="8" ry="6" fill="#FFF"/>
+  <circle cx="130" cy="150" r="4" fill="#228B22"/>
+  <circle cx="130" cy="148" r="2" fill="#000"/>
+  
+  <ellipse cx="170" cy="150" rx="8" ry="6" fill="#FFF"/>
+  <circle cx="170" cy="150" r="4" fill="#228B22"/>
+  <circle cx="170" cy="148" r="2" fill="#000"/>
+  
+  <!-- Eyebrows -->
+  <path d="M 120 140 Q 130 135 140 140" fill="none" stroke="#654321" stroke-width="2"/>
+  <path d="M 160 140 Q 170 135 180 140" fill="none" stroke="#654321" stroke-width="2"/>
+  
+  <!-- Nose -->
+  <ellipse cx="150" cy="165" rx="3" ry="7" fill="#E8A798"/>
+  
+  <!-- Mouth -->
+  <path d="M 140 180 Q 150 185 160 180" fill="none" stroke="#8B4513" stroke-width="2"/>
+  
+  <!-- Earrings -->
+  <circle cx="105" cy="160" r="3" fill="#FFD700"/>
+  <circle cx="195" cy="160" r="3" fill="#FFD700"/>
+  
+  <!-- Coffee Beans -->
+  <ellipse cx="80" cy="200" rx="4" ry="6" fill="#8B4513" transform="rotate(30 80 200)"/>
+  <path d="M 80 197 Q 80 200 80 203" stroke="#654321" stroke-width="0.5"/>
+  
+  <ellipse cx="220" cy="190" rx="4" ry="6" fill="#8B4513" transform="rotate(-30 220 190)"/>
+  <path d="M 220 187 Q 220 190 220 193" stroke="#654321" stroke-width="0.5"/>
+  
+  <ellipse cx="90" cy="240" rx="3" ry="5" fill="#8B4513" transform="rotate(45 90 240)"/>
+  <path d="M 90 238 Q 90 240 90 242" stroke="#654321" stroke-width="0.5"/>
+  
+  <!-- Name Badge -->
+  <rect x="80" y="240" width="45" height="20" fill="#FFD700" stroke="#D2691E" stroke-width="1"/>
+  <text x="102" y="252" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#8B4513">SARAH</text>
+</svg>

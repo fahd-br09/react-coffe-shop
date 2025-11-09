@@ -1,0 +1,62 @@
+<svg width="300" height="300" viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="skinGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FDBCB4;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#E8A798;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="shirtGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#8B4513;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#654321;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <circle cx="150" cy="150" r="145" fill="#F5F5DC" stroke="#8B4513" stroke-width="5"/>
+  
+  <!-- Shirt -->
+  <path d="M 100 250 L 100 280 Q 100 290 110 290 L 190 290 Q 200 290 200 280 L 200 250 Q 190 240 180 235 L 120 235 Q 110 240 100 250" fill="url(#shirtGradient)"/>
+  
+  <!-- Neck -->
+  <ellipse cx="150" cy="230" rx="25" ry="35" fill="url(#skinGradient)"/>
+  
+  <!-- Head -->
+  <ellipse cx="150" cy="160" rx="60" ry="70" fill="url(#skinGradient)"/>
+  
+  <!-- Hair -->
+  <path d="M 90 130 Q 90 100 120 90 Q 150 85 180 90 Q 210 100 210 130 Q 205 120 190 115 Q 150 110 110 115 Q 95 120 90 130" fill="#8B4513"/>
+  
+  <!-- Eyes -->
+  <ellipse cx="130" cy="150" rx="8" ry="6" fill="#FFF"/>
+  <circle cx="130" cy="150" r="4" fill="#654321"/>
+  <circle cx="130" cy="148" r="2" fill="#000"/>
+  
+  <ellipse cx="170" cy="150" rx="8" ry="6" fill="#FFF"/>
+  <circle cx="170" cy="150" r="4" fill="#654321"/>
+  <circle cx="170" cy="148" r="2" fill="#000"/>
+  
+  <!-- Eyebrows -->
+  <path d="M 120 140 Q 130 135 140 140" fill="none" stroke="#654321" stroke-width="3"/>
+  <path d="M 160 140 Q 170 135 180 140" fill="none" stroke="#654321" stroke-width="3"/>
+  
+  <!-- Nose -->
+  <ellipse cx="150" cy="165" rx="4" ry="8" fill="#E8A798"/>
+  
+  <!-- Mouth -->
+  <path d="M 140 180 Q 150 185 160 180" fill="none" stroke="#8B4513" stroke-width="2"/>
+  
+  <!-- Mustache -->
+  <path d="M 135 175 Q 150 178 165 175" fill="none" stroke="#654321" stroke-width="3"/>
+  
+  <!-- Coffee Cup -->
+  <ellipse cx="220" cy="200" rx="15" ry="10" fill="#8B4513"/>
+  <ellipse cx="220" cy="195" rx="12" ry="8" fill="#3E2723"/>
+  <path d="M 235 195 Q 245 195 245 205 Q 245 215 235 215" fill="none" stroke="#654321" stroke-width="2"/>
+  
+  <!-- Steam from cup -->
+  <path d="M 215 185 Q 210 175 215 165" fill="none" stroke="#E0E0E0" stroke-width="1" opacity="0.7"/>
+  <path d="M 225 185 Q 220 175 225 165" fill="none" stroke="#E0E0E0" stroke-width="1" opacity="0.7"/>
+  
+  <!-- Name Badge -->
+  <rect x="80" y="240" width="40" height="20" fill="#FFD700" stroke="#8B4513" stroke-width="1"/>
+  <text x="100" y="252" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#8B4513">JOHN</text>
+</svg>

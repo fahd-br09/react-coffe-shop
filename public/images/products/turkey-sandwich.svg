@@ -1,0 +1,74 @@
+<svg width="400" height="300" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="sandwichBreadGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#F4A460;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#DEB887;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="sandwichCrustGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#D2B48C;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#BC9A6A;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="400" height="300" fill="#FFFEF7"/>
+  
+  <!-- Plate -->
+  <ellipse cx="200" cy="240" rx="130" ry="30" fill="#E6E6FA" stroke="#D3D3D3" stroke-width="2"/>
+  
+  <!-- Sandwich Shadow -->
+  <ellipse cx="205" cy="200" rx="90" ry="20" fill="#D2B48C" opacity="0.3"/>
+  
+  <!-- Bottom Bread -->
+  <ellipse cx="200" cy="200" rx="85" ry="15" fill="url(#sandwichBreadGradient)" stroke="#BC9A6A" stroke-width="1"/>
+  
+  <!-- Lettuce -->
+  <path d="M 130 195 Q 140 190 160 192 Q 180 194 200 192 Q 220 190 240 192 Q 260 194 270 195 Q 265 200 240 198 Q 220 196 200 198 Q 180 200 160 198 Q 140 196 130 195" fill="#32CD32"/>
+  <path d="M 140 195 Q 160 193 180 195 Q 200 197 220 195 Q 240 193 260 195" fill="#228B22" opacity="0.6"/>
+  
+  <!-- Turkey -->
+  <ellipse cx="200" cy="190" rx="75" ry="8" fill="#DEB887"/>
+  <ellipse cx="180" cy="188" rx="20" ry="4" fill="#D2B48C"/>
+  <ellipse cx="220" cy="188" rx="25" ry="4" fill="#D2B48C"/>
+  <ellipse cx="200" cy="186" rx="30" ry="3" fill="#BC9A6A"/>
+  
+  <!-- Tomato Slices -->
+  <ellipse cx="170" cy="185" rx="12" ry="3" fill="#FF6347"/>
+  <ellipse cx="170" cy="185" rx="8" ry="2" fill="#FF4500" opacity="0.7"/>
+  <circle cx="168" cy="185" r="1" fill="#FFE4E1"/>
+  <circle cx="172" cy="185" r="0.5" fill="#FFE4E1"/>
+  
+  <ellipse cx="230" cy="185" rx="10" ry="3" fill="#FF6347"/>
+  <ellipse cx="230" cy="185" rx="6" ry="2" fill="#FF4500" opacity="0.7"/>
+  <circle cx="228" cy="185" r="0.8" fill="#FFE4E1"/>
+  <circle cx="232" cy="185" r="0.5" fill="#FFE4E1"/>
+  
+  <!-- Cheese -->
+  <path d="M 140 182 Q 160 180 180 181 Q 200 182 220 181 Q 240 180 260 182 Q 255 185 230 184 Q 210 183 200 184 Q 190 185 170 184 Q 150 183 140 182" fill="#FFD700" opacity="0.8"/>
+  
+  <!-- Top Bread -->
+  <ellipse cx="200" cy="180" rx="85" ry="15" fill="url(#sandwichBreadGradient)" stroke="#BC9A6A" stroke-width="1"/>
+  
+  <!-- Bread Crust -->
+  <ellipse cx="200" cy="175" rx="80" ry="12" fill="url(#sandwichCrustGradient)"/>
+  
+  <!-- Sesame Seeds -->
+  <ellipse cx="170" cy="175" rx="1.5" ry="1" fill="#F5DEB3"/>
+  <ellipse cx="190" cy="173" rx="1" ry="0.8" fill="#F5DEB3"/>
+  <ellipse cx="210" cy="174" rx="1.2" ry="0.9" fill="#F5DEB3"/>
+  <ellipse cx="230" cy="176" rx="1" ry="0.8" fill="#F5DEB3"/>
+  <ellipse cx="180" cy="177" rx="0.8" ry="0.6" fill="#F5DEB3"/>
+  <ellipse cx="220" cy="172" rx="1.1" ry="0.8" fill="#F5DEB3"/>
+  
+  <!-- Toothpick -->
+  <line x1="200" y1="160" x2="200" y2="185" stroke="#8B4513" stroke-width="2"/>
+  <circle cx="200" cy="160" r="3" fill="#FF6347"/>
+  
+  <!-- Garnish -->
+  <path d="M 120 220 Q 115 215 120 210 Q 125 215 130 210 Q 135 215 130 220 Q 125 225 120 220" fill="#32CD32"/>
+  <circle cx="280" cy="220" r="3" fill="#FF6347"/>
+  
+  <!-- Title -->
+  <text x="200" y="50" font-family="Arial, sans-serif" font-size="22" font-weight="bold" text-anchor="middle" fill="#8B4513">Turkey Sandwich</text>
+  <text x="200" y="75" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#666">Fresh & Delicious</text>
+</svg>
