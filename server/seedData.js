@@ -24,7 +24,7 @@ const sampleProducts = [
     name: "Latte",
     description: "Smooth latte with perfectly steamed milk",
     price: 4.75,
-    image: "https://images.unsplash.com/photo-1561882468-9110e03e0f78?w=400",
+    image: "https://i.postimg.cc/BZxpc7Q0/premium-photo-1674327105076-36c4419864cf.jpg",
     rating: 4.6,
     category: "coffee"
   },
