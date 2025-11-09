@@ -53,11 +53,11 @@ const AboutSection = () => {
           <div className="about-image">
             <div className="image-container">
               <img 
-                src="/images/coffee-shop-interior.svg" 
+                src="https://images-ext-1.discordapp.net/external/jFmLHBv4w9isDybCQGLiBwa78DzTbaYEfmWyZWgxUHo/https/static.wixstatic.com/media/6e47f0_aacda1c68cd14d909dd26643528ee321~mv2_d_4000_2250_s_2.jpg/v1/fill/w_1236%2Ch_695%2Cal_c%2Cq_85%2Cusm_0.66_1.00_0.01%2Cenc_auto/6e47f0_aacda1c68cd14d909dd26643528ee321~mv2_d_4000_2250_s_2.jpg?format=webp" 
                 alt="BR Coffee shop interior"
                 className="about-img"
                 onError={(e) => {
-                  e.target.src = 'https://via.placeholder.com/600x400/8B4513/FFFFFF?text=BR+Coffee+Shop';
+                  e.target.src = 'https://images-ext-1.discordapp.net/external/jFmLHBv4w9isDybCQGLiBwa78DzTbaYEfmWyZWgxUHo/https/static.wixstatic.com/media/6e47f0_aacda1c68cd14d909dd26643528ee321~mv2_d_4000_2250_s_2.jpg/v1/fill/w_1236%2Ch_695%2Cal_c%2Cq_85%2Cusm_0.66_1.00_0.01%2Cenc_auto/6e47f0_aacda1c68cd14d909dd26643528ee321~mv2_d_4000_2250_s_2.jpg?format=webp';
                 }}
               />
               <div className="image-overlay">
@@ -91,7 +91,7 @@ const AboutSection = () => {
             <div className="team-member">
               <div className="member-image">
                 <img 
-                  src="/images/team/john-smith.svg" 
+                  src="https://img.freepik.com/free-photo/close-up-portrait-young-bearded-man-white-shirt-jacket-posing-camera-with-broad-smile-isolated-gray_171337-629.jpg?semt=ais_hybrid&w=740&q=80" 
                   alt="John Smith" 
                   onError={(e) => {
                     e.target.src = 'https://via.placeholder.com/300x300/8B4513/FFFFFF?text=John+Smith';
@@ -106,7 +106,7 @@ const AboutSection = () => {
             <div className="team-member">
               <div className="member-image">
                 <img 
-                  src="/images/team/sarah-johnson.svg" 
+                  src="https://plus.unsplash.com/premium_photo-1690086519096-0594592709d3?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8ZmVtYWxlJTIwYXZhdGFyfGVufDB8fDB8fHww&fm=jpg&q=60&w=3000" 
                   alt="Sarah Johnson" 
                   onError={(e) => {
                     e.target.src = 'https://via.placeholder.com/300x300/8B4513/FFFFFF?text=Sarah+Johnson';
@@ -121,7 +121,7 @@ const AboutSection = () => {
             <div className="team-member">
               <div className="member-image">
                 <img 
-                  src="/images/team/mike-chen.svg" 
+                  src="https://assets.gqindia.com/photos/5fabc213a2547fc98fea1612/16:9/w_2560%2Cc_limit/Mike-Chen.jpg" 
                   alt="Mike Chen" 
                   onError={(e) => {
                     e.target.src = 'https://via.placeholder.com/300x300/8B4513/FFFFFF?text=Mike+Chen';

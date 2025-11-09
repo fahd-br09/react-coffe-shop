@@ -41,21 +41,21 @@ const FeedbackSection = () => {
       name: "Emily Rodriguez",
       rating: 5,
       message: "Absolutely love this coffee shop! The espresso is perfect and the pastries are always fresh. The staff is incredibly friendly too!",
-      avatar: "/images/customers/emily.svg"
+      avatar: "https://miro.medium.com/1*hATEYt0u5wpq4VqRjsXfhQ.png"
     },
     {
       id: 2,
       name: "David Thompson",
       rating: 5,
       message: "Best coffee in town! I'm a regular customer and they never disappoint. The latte art is amazing and the atmosphere is perfect for work.",
-      avatar: "/images/customers/david.svg"
+      avatar: "https://m.media-amazon.com/images/M/MV5BYTIxNTQ1NTgtZjFlNC00NDhiLTg0NjItNzQ2ZTFlOGQ5OGJmXkEyXkFqcGc@._V1_.jpg"
     },
     {
       id: 3,
       name: "Lisa Chen",
       rating: 4,
       message: "Great variety of teas and coffee. The green tea is exceptional and the blueberry muffins are to die for. Highly recommend!",
-      avatar: "/images/customers/lisa.svg"
+      avatar: "https://www.utphysicians.com/wp-content/uploads/2019/11/Chen-Lisa-web.jpg"
     }
   ];
 
