@@ -1,24 +1,13 @@
 const express = require('express');
 const router = express.Router();
-const mongoose = require('mongoose');
 const Product = require('../models/Product');
 const { adminAuth } = require('../middleware/auth');
-const { products } = require('../mockData');
-
-// router.use((req, res, next) => {
-//   // readyState: 0 = disconnected, 1 = connected, 2 = connecting, 3 = disconnecting
-//   if (mongoose.connection.readyState !== 1) {
-//     return res.status(503).json({ message: 'Service temporarily unavailable - database not connected' });
-//   }
-//   next();
-// });
-
 
 // Get all products
 router.get('/', async (req, res) => {
   try {
-    const inStockProducts = products.filter(p => p.inStock);
-    res.json(inStockProducts);
+    const products = await Product.find({ inStock: true });
+    res.json(products);
   } catch (error) {
     res.status(500).json({ message: error.message });
   }
@@ -27,7 +16,7 @@ router.get('/', async (req, res) => {
 // Get single product
 router.get('/:id', async (req, res) => {
   try {
-    const product = products.find(p => p._id === req.params.id);
+    const product = await Product.findById(req.params.id);
     if (!product) {
       return res.status(404).json({ message: 'Product not found' });
     }
